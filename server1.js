@@ -48,6 +48,40 @@ app.get('/about',(req,res)=>{
 	});		//handlebars
 });
 
+app.get('/projects',(req,res)=>{
+	res.render('projects.hbs',{
+		pagetitle:'Projects'
+	});
+});
+
 app.listen(port,()=>{
 	console.log('server is up on port');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
